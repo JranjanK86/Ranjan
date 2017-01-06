@@ -1,0 +1,55 @@
+//  Write some awesome Swift code, or import libraries like "Foundation",
+//  "Dispatch", or "Glibc"
+
+//------------NormalExample
+var MyVar="HI......";
+print(MyVar)
+
+//--------------typealias Example
+
+typealias Mytypealis = Int
+var distance: Mytypealis = 150
+print(distance)
+
+//--------------Variable over write
+var MyVar2 = 42
+    MyVar2 = 50
+print(MyVar2)
+
+//--------------Type Infrance
+var c1 = 15
+var c2 = 3.490
+var c3 = 2+0.500
+print(c1)
+print(c2)
+print(c3)
+
+//---------------Type annoations exmaple
+var J1:Int
+    J1 = 100
+print(J1)
+
+//---------------Variable printing
+var varA = "Godzilla"
+var varB = 1000.00
+print("Value of \(varA) is more than \(varB) millions")
+
+//-----------------Optional
+var myString:String!
+myString = "Hello, Swift!"
+if myString != nil {
+ print(myString)
+}else{
+ print("myString has nil value")
+}
+//--------------------Optional Binding
+
+var myStr: String?
+    myStr =  "Eo Kolkata"
+if let YourString = myStr{
+    print("Your String is -\(YourString)")
+}
+else{
+    print("No")
+}
+
